@@ -11,9 +11,9 @@ title                    : "Alex Taylor"
 title_separator          : "-"
 name                     : &name "Alex Taylor"
 description              : &description "description of my website"
-url                      : https://A-R-Tay.github.io # the base hostname & protocol for your site e.g. "https://A-R-Tay.github.io"
+url                      : https://art-math.github.io # the base hostname & protocol for your site e.g. "https://art-math.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "A-R-Tay/A-R-Tay.github.io"
+repository               : "art-math/art-math.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
