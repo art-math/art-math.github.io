@@ -1,11 +1,13 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: /non-menu-page/
 author_profile: true
 redirect_from:
   - /resume
 ---
+<!-- if I want to have my CV appear on the header, just change perma-link to /cv/, and then add 
+- title: "CV" url: /cv/ to the _data/navigation.yml file -->
 
 {% include base_path %}
 
