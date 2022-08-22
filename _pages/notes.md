@@ -10,7 +10,6 @@ redirect_from:
 {% include base_path %}
 
 <script type="text/javascript">
-<!--
 	function toggle_visibility(id) {
 		var e = document.getElementById(id);
 		if(e.style.display == 'block')
@@ -18,7 +17,6 @@ redirect_from:
 		else
 		e.style.display = 'block';
 	}
-//-->
 </script>
 
 These are some expository notes I've written for classes, talks, etc. For the most part they do not contain original material.
