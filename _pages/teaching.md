@@ -22,14 +22,7 @@ I've thoroughly enjoyed doing math with students in a variety of capacities:
 
 <a href="#" onclick="toggle_visibility('first'); return false;">Details</a>&nbsp;&nbsp; Teaching assistant
 <div id="first" style='display:none; margin-left: 1em;'>
-In Spring 2021, Fall 2021, and Spring 2022 I was on the <a href="https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent">list of teachers ranked as excellent</a>.
-<ul>
-<li>(F22) MATH 241: Calculus III</li>
-<li>(S22) MATH 231: Calculus II</li>
-<li>(F21) MATH 220: Calculus I</li>
-<li>(S21) MATH 220: Calculus I</li>
-<li>(F20) MATH 112: Algebra</li>
-</ul>
+In Spring 2021, Fall 2021, and Spring 2022 I was on the <a href="https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent">list of teachers ranked as excellent</a>. Classes I've taught at The University of Illinois include: MATH 112 Algebra, MATH 257 Linear Algebra with Applications, MATH 220 Calculus, MATH 221 Calculus I, MATH 231 Calculus II, and MATH 241 Calculus III. 
 </div>
 
 <a href="#" onclick="toggle_visibility('second'); return false;">Details</a>&nbsp;&nbsp; Illinois Geometry Lab mentor
