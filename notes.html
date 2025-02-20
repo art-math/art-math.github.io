@@ -1,0 +1,197 @@
+<html>
+<div class="app">
+<div class="heading">
+<span class="title"><a href="main.php">Alex Taylor</a></span>
+<span class="description">PhD candidate in the Mathematics Department at The University of Illinois, Urbana-Champaign.</span>
+<ul class ="nav">
+  <li><a href="main.php">Main</a></li>
+  <li><a href="notes.php">Notes</a></li>
+  <li><a href="projects.php">Projects</a></li>
+</ul>
+<hr>
+</div>
+</div>
+</html><style>
+html {
+  font-family: "Inconsolata", monospace;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #111;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #0f877f;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #0f877f;
+  /* Gecko Browsers */
+}
+
+.mathjax-commands {
+  display: none;
+}
+
+a {
+  color: #0a3c58;
+  font-family: "Inconsolata", monospace;
+  text-decoration: none;
+  border-bottom: 1px dashed #0a3c58;
+  line-height: 15px;
+}
+
+a:hover {
+  border-bottom: 1px solid #0a3c58;
+}
+
+.app {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.app > * {
+  box-sizing: border-box;
+}
+.app > hr {
+  display: block;
+  margin: 30px 20px;
+}
+.app .heading {
+  position: static;
+  width: 100%;
+  height: auto;
+  padding: 40px 20px 0px 20px;
+  z-index: 3;
+}
+.app .heading span.title {
+  font-size: 18px;
+}
+.app .heading span.title a {
+  border-bottom: 0;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.2;
+  display: block;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.app .heading span.description {
+  color: #111;
+}
+
+.app .heading .nav > li > ul {
+  padding-left: 20px;
+}
+.app .heading .nav > li > ul > li > a.active {
+  font-weight: bold;
+}
+
+.app .content {
+  box-sizing: border-box;
+  padding: 0px 20px 0px 20px;
+  margin-left: 0;
+  width: 100%;
+}
+
+hr {
+  margin: 30px 0;
+}</style>
+
+<script type="text/javascript">
+	function toggle_visibility(id) {
+		var e = document.getElementById(id);
+		if(e.style.display == 'block')
+			e.style.display = 'none';
+		else
+		e.style.display = 'block';
+	}
+</script>
+
+<div class="app">
+<div class="content">
+
+<p>
+Expository notes I've written for classes, talks, etc. For the most part they do not contain original material.
+</p>
+
+<p>
+<a href="/files/connections.pdf">pdf</a>&nbsp;&nbsp;<a href="#" onclick="toggle_visibility('notes7'); return false;">abs</a>&nbsp;&nbsp; Connections and vector bundles
+<div id="notes7" style='display:none; margin-left: 1em;'>
+<b>Abstract:</b>
+This is an abstract.
+</div>
+</p>
+
+<p>
+<a href="/files/complexgeo.pdf">pdf</a>&nbsp;&nbsp;<a href="#" onclick="toggle_visibility('notes8'); return false;">abs</a>&nbsp;&nbsp; Complex geometry
+<div id="notes8" style='display:none; margin-left: 1em;'>
+<b>Abstract:</b>
+This is an abstract.
+</div>
+</p>
+
+
+<p>
+<a href="/files/tangentspace.pdf">pdf</a>&nbsp;&nbsp;<a href="#" onclick="toggle_visibility('notes1'); return false;">abs</a>&nbsp;&nbsp; Equivalent definitions of the tangent space
+<div id="notes1" style='display:none; margin-left: 1em;'>
+<b>Abstract:</b>
+We prove the equivalence of several common definitions of the tangent space on a smooth manifold, and then show that this equivalence is "natural" in the sense that the associated differentials are related via factorization through the corresponding isomorphism between any two tangent spaces.
+</div>
+</p>
+
+<p>
+<a href="/files/liegroups.pdf">pdf</a>&nbsp;&nbsp;<a href="#" onclick="toggle_visibility('notes2'); return false;">abs</a>&nbsp;&nbsp; Lie groups and quotient manifolds
+<div id="notes2" style='display:none; margin-left: 1em;'>
+<b>Abstract:</b>
+We present all of the necessary tools and techniques to state the quotient manifold theorem: given a smooth, proper, free Lie group action on a smooth manifold, the orbit space is a smooth manifold. Then we explore some important applications of the theorem, such as the construction and characterization of homogeneous spaces.
+</div>
+</p>
+
+<p>
+<a href="/files/liealgebras.pdf">pdf</a>&nbsp;&nbsp;<a href="#" onclick="toggle_visibility('notes5'); return false;">abs</a>&nbsp;&nbsp; Lie algebras and exponential maps
+<div id="notes5" style='display:none; margin-left: 1em;'>
+<b>Abstract:</b>
+We present a proof of the closed subgroup theorem for Lie groups using the machinery of Lie algebras and exponential maps. Along the way, we introduce all of the necessary background information about vector fields and Lie algebras.
+</div>
+</p>
+
+<p>
+<a href="/files/idealtetrahedra.pdf">pdf</a>&nbsp;&nbsp;<a href="#" onclick="toggle_visibility('notes3'); return false;">abs</a>&nbsp;&nbsp; Shape parameters of ideal tetrahedra
+<div id="notes3" style='display:none; margin-left: 1em;'>
+<b>Abstract:</b>
+We define the notion of ideal tetrahedron and the shape parameters associated with its edges in hyperbolic space and prove some basic facts about them. Final report for "Algorithmic topology and geometry of 3-manifolds" with Nathan Dunfield.
+</div>
+</p>
+
+<p>
+<a href="/files/clifford.pdf">pdf</a>&nbsp;&nbsp;<a href="#" onclick="toggle_visibility('notes4'); return false;">abs</a>&nbsp;&nbsp; From differential operators to geometric algebras
+<div id="notes4" style='display:none; margin-left: 1em;'>
+<b>Abstract:</b>
+We explore the relationship between the existence of Dirac operators and Clifford module structures on a vector bundle. Final report for "Differentiable Manifolds II" with Susan Tolman.
+</div>
+</p>
+
+<p>
+<a href="/files/ktheory.pdf">pdf</a>&nbsp;&nbsp;<a href="#" onclick="toggle_visibility('notes6'); return false;">abs</a>&nbsp;&nbsp; Topological and operator K-theory
+<div id="notes6" style='display:none; margin-left: 1em;'>
+<b>Abstract:</b>
+Using the $K_{0}$ group of a compact Hausdorff space to motivate the definition of the $K^{0}$ group of a $C^{*}$-algebra, we introduce operator K-theory as a non-commutative analogue of topological K-theory. Final report for "Hilbert Spaces" with Florin Boca.
+</div>
+</p>
+
+</div>
+</div>

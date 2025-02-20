@@ -1,0 +1,98 @@
+html {
+  font-family: "Inconsolata", monospace;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #111;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #0f877f;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #0f877f;
+  /* Gecko Browsers */
+}
+
+.mathjax-commands {
+  display: none;
+}
+
+a {
+  color: #0a3c58;
+  font-family: "Inconsolata", monospace;
+  text-decoration: none;
+  border-bottom: 1px dashed #0a3c58;
+  line-height: 15px;
+}
+
+a:hover {
+  border-bottom: 1px solid #0a3c58;
+}
+
+.app {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.app > * {
+  box-sizing: border-box;
+}
+.app > hr {
+  display: block;
+  margin: 30px 20px;
+}
+.app .heading {
+  position: static;
+  width: 100%;
+  height: auto;
+  padding: 40px 20px 0px 20px;
+  z-index: 3;
+}
+.app .heading span.title {
+  font-size: 18px;
+}
+.app .heading span.title a {
+  border-bottom: 0;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.2;
+  display: block;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.app .heading span.description {
+  color: #111;
+}
+
+.app .heading .nav > li > ul {
+  padding-left: 20px;
+}
+.app .heading .nav > li > ul > li > a.active {
+  font-weight: bold;
+}
+
+.app .content {
+  box-sizing: border-box;
+  padding: 0px 20px 0px 20px;
+  margin-left: 0;
+  width: 100%;
+}
+
+hr {
+  margin: 30px 0;
+}
